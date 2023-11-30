@@ -77,7 +77,7 @@ const newEl = document.createElement("li")
 newEl.textContent = itemsValue;
 
 console.log(itemsID)
-newEl.addEventListener('dbclick' , function(){
+newEl.addEventListener('dblclick' , function(){
   let exactLocationOfItemInDB = ref(database, `shoopinglist/${itemsID}` )
         
 
